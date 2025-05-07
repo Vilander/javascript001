@@ -2,10 +2,20 @@
 // Case sensitive
 // Sintaxe básica e comentário
 // Declaração de variáveis(var, let, const)
-// Console e Debug
 
 let nome="Vilander"
 let idade= 38
+
+// Console e Debug
+
+console.log(nome)
+console.log(idade)
+console.log(nome+" tem " + idade + " anos")
+
+nome = "Aline"
+idade = 37
+
+console.log(nome, idade)
 
 
 
