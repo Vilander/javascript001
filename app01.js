@@ -8,16 +8,30 @@ let idade= 38
 
 // Console e Debug
 
-console.log(nome)
-console.log(idade)
-console.log(nome+" tem " + idade + " anos")
+//console.log(nome)
+//console.log(idade)
+//console.log(nome+" tem " + idade + " anos")
 
 nome = "Aline"
 idade = 37
 
-console.log(nome, idade)
+//console.log(nome, idade)
 
+//Tipos de dados
 
+// texto => String
+ let cidade ="Americana"
+
+//numérico => number
+
+let salario = 1500.35
+
+//booleano => boolean
+let fumante = false
+
+console.log(typeof cidade)
+console.log(typeof salario)
+console.log(typeof fumante)
 
 // Operadores
 //     Operador Atribuição
