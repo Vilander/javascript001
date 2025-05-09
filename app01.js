@@ -88,9 +88,39 @@ precoDesconto = preco - (preco * desconto)
 console.log("\nPreço com 17% de acréscimo: R$" + precoAcrescimo.toFixed(2))
 console.log("Preço com 7% de desconto: R$" + precoDesconto.toFixed(2) + "\n")
 
+console.log("----------------------------------------\n")
 
-// Estrutura
+// Estruturas:
 //     Estrutura de controle/decisão
+
+if (10>100){
+    console.log("10 é maior que 5") 
+}else{
+    console.log("10 é menor que 100")
+}
+
+
+let idadeDoCandidato = 19
+
+if (idadeDoCandidato >= 18){
+    console.log("\nCandidato pode dirigir!\n")
+}else{
+    console.log("\nCandidato não pode dirigir, volte mais tarde!\n")
+}
+
+// DESAFIO:
+//faça um código que verifique se o salário do funcionário é maior que 5000, se for mostre a mensagem "Salario OK", se não mostre a mensagem "Precisa de aumento de X reais"
+
+let salarioFunc = 3000
+
+if (salarioFunc >= 5000){
+    console.log("Salário OK\n")
+}else{
+    let aumentoSalario = 5000 - salarioFunc
+    console.log("O funcionário precisa de um aumento de R$" + aumentoSalario.toFixed(2))
+}
+
+
 //     Laços de repetição
 
 // Arrays 
