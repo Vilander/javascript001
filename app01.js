@@ -147,8 +147,38 @@ for (let i = 1; i <=50; i=i+1){
     console.log(i)
 }
 
-// Arrays 
+console.log("\n")
 
+// Arrays --> vetor,
+
+let alunos =["João","Paulo,","Renata","Cris", "X"]
+console.log (alunos)
+console.log (alunos[2])
+alunos [4] = "Cléber"
+
+console.log(alunos)
+
+alunos.push("Karen")
+
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍌")
+frutas.push("🍓")
+frutas.push("🍊")
+frutas.push("🍋‍🟩")
+frutas.push("🍉")
+frutas.push("🍅")
+frutas.push("🍐")
+frutas.push("🍇")
+frutas.push("🍈")
+frutas.push("🍒")
+
+console.log(frutas)
+frutas.
+
+console.log(frutas)
 // Funções básicas
 // Escopo
 
