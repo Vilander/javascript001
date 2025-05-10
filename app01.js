@@ -176,10 +176,20 @@ frutas.push("🍈")
 frutas.push("🍒")
 
 console.log(frutas)
-frutas.
+frutas.splice(1,1) //remove indice do array (a partir de indice x, remover quantidade de indices)
 
 console.log(frutas)
+
 // Funções básicas
+//reutilizar um bloco de código
+function soma(num1,num2){
+    let total = num1+ num2
+    console.log("O resultado é " + total)
+}
+
+soma(15,20)
+
+
 // Escopo
 
 
