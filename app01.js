@@ -183,7 +183,7 @@ console.log(frutas)
 // Funções básicas
 //reutilizar um bloco de código
 function soma(num1,num2){
-    let total = num1+ num2
+    let total = num1 + num2
     console.log("O resultado é " + total)
 }
 
@@ -191,6 +191,7 @@ soma(15,20)
 
 
 // Escopo
+//Global ou Local
 
 
 // Alterar conteúdo e atributos *
